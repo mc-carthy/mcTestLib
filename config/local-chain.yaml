@@ -1,0 +1,12 @@
+chain:
+  name: 'chain1'
+node0:
+  url: 'http://localhost:6808'
+  username: 'multichainrpc'
+  password: 'C54pARZ4jD43Et3UoCPAurJye3yMgvKvdjmBsEH8bFyK'
+  address0: '1NXbufT8AagHXwXEdRc1Ck9vaZhW4WfwBSZXDy'
+node1:
+  url: 'http://localhost:10254'
+  username: 'multichainrpc'
+  password: '3Z99uC7W3vdSDQgtY2Pr93ziLthwhHxvtFqUUZnQc2QA'
+  address0: '1X7vaRPmQAXQPYFN2bADzvHC1SpT7qHVYhp7ik'

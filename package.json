@@ -4,13 +4,15 @@
   "description": "Test lib for multichain integration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_ENV=${ENV=local-chain} mocha test/sandbox.js"
   },
   "author": "Mick McCarthy",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
     "chai": "^4.2.0",
+    "config": "^3.3.1",
+    "crypto": "^1.0.1",
     "mocha": "^7.2.0"
   }
 }
