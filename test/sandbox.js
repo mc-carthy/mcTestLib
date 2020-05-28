@@ -1,8 +1,17 @@
 const chai = require('chai');
 const config = require('config');
 
-const multichain = require('./helpers/multichain');
+const Multichain = require('./helpers/multichain');
 const crypto = require('./helpers/crypto');
+
+let multichain = new Multichain(
+    config.get('node0.url'), 
+    config.get('chain.name'), 
+    { 
+        'username': config.get('node0.username'), 
+        'password': config.get('node0.password')
+    }
+);
 
 describe('Sandbox tests', function() {
     it('should assert true', function() {
